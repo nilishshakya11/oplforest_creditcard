@@ -52,7 +52,7 @@ oplforest_creditcard/
     └── creditcard_synth_v2_lite.csv
 
 google drive link for data files :
-```plaintext
+
 https://drive.google.com/drive/folders/1ysGdc466Qq07Y3VINLpP8vbDsRecOmoW?usp=drive_link
 ```
 
