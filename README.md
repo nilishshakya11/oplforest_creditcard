@@ -7,6 +7,7 @@ This project applies the OptiForest (Optimized Isolation Forest) algorithm to de
 It replicates and extends the original OptiForest implementation, comparing its performance with the standard Isolation Forest.
 
 📁 Project Structure
+```plaintext
 oplforest_creditcard/
 ├── demo_credit.py               # Main script to run OptiForest and Isolation Forest
 ├── optiforest.py                # Core OptiForest algorithm
@@ -16,7 +17,7 @@ oplforest_creditcard/
 ├── get_data.py                  # Script to auto-download datasets
 ├── README.md                    # Project documentation
 └── data/                        # Folder for large CSV datasets (ignored in Git)
-
+```
 
 ⚙️ Setup Instructions
 
