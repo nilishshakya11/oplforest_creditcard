@@ -22,9 +22,10 @@ oplforest_creditcard/
 ⚙️ Setup Instructions
 
 Clone the repository
-
+```plaintext
 git clone https://github.com/nilishshakya11/oplforest_creditcard.git
 cd oplforest_creditcard
+```
 
 Create and activate a virtual environment (recommended):
 
