@@ -6,3 +6,6 @@ creditcard_synth_v2_lite.csv
 *.zip
 *.zip
 *creditcard*.csv
+data/
+*.csv
+*.zip
