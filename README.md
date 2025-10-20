@@ -125,5 +125,6 @@ Xiang, G. (2022). OptiForest: An Optimized Isolation Forest for Anomaly Detectio
 Original OptiForest GitHub Repository
 
 Install dependencies
-
+```plaintext
 pip install -r requirements.txt
+```
