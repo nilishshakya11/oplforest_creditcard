@@ -28,10 +28,11 @@ cd oplforest_creditcard
 ```
 
 Create and activate a virtual environment (recommended):
-
+```plaintext
 python -m venv venv
 source venv/bin/activate      # macOS/Linux
 venv\Scripts\activate         # Windows
+```
 📊 Dataset Information
 
 ⚠️ GitHub cannot host files larger than 100 MB.
@@ -48,7 +49,7 @@ python get_data.py
 
 
 Example get_data.py:
-
+```plaintext
 import os, urllib.request, pathlib
 
 URLS = {
@@ -66,7 +67,7 @@ for name, url in URLS.items():
         print(f"✅ Saved to {dest}")
     else:
         print(f"✔️ Already exists: {dest}")
-
+```
 
 (Update the URLs above once you publish your datasets under GitHub “Releases” → “Attach files”)
 
@@ -75,7 +76,7 @@ for name, url in URLS.items():
 Download from GitHub Releases
 
 Place them inside:
-
+```plaintext
 oplforest_creditcard/
 └── data/
     ├── creditcard.csv
@@ -102,6 +103,8 @@ Optional parameters:
 Example:
 
 python demo_credit.py --csv_path data/creditcard.csv --branch 2 --threshold 0.5 --seed 42
+
+```
 
 📈 Expected Output
 
