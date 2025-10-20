@@ -38,40 +38,9 @@ venv\Scripts\activate         # Windows
 ⚠️ GitHub cannot host files larger than 100 MB.
 The datasets used in this project (creditcard.csv and creditcard_synth_v2_lite.csv) are large and therefore excluded from Git.
 
-You can download them automatically or manually:
+You can download them manually:
 
-
-📥 Option 1 — Automatic (Recommended)
-
-Run the helper script to fetch both datasets into a data/ folder:
-
-python get_data.py
-
-
-Example get_data.py:
-```plaintext
-import os, urllib.request, pathlib
-
-URLS = {
-    "creditcard.csv": "https://github.com/nilishshakya11/oplforest_creditcard/releases/download/v0.1/creditcard.csv",
-    "creditcard_synth_v2_lite.csv": "https://github.com/nilishshakya11/oplforest_creditcard/releases/download/v0.1/creditcard_synth_v2_lite.csv",
-}
-
-pathlib.Path("data").mkdir(exist_ok=True)
-
-for name, url in URLS.items():
-    dest = f"data/{name}"
-    if not os.path.exists(dest):
-        print(f"⬇️ Downloading {name} ...")
-        urllib.request.urlretrieve(url, dest)
-        print(f"✅ Saved to {dest}")
-    else:
-        print(f"✔️ Already exists: {dest}")
-```
-
-(Update the URLs above once you publish your datasets under GitHub “Releases” → “Attach files”)
-
-📦 Option 2 — Manual Download
+— Manual Download
 
 Download from GitHub Releases
 
@@ -81,6 +50,11 @@ oplforest_creditcard/
 └── data/
     ├── creditcard.csv
     └── creditcard_synth_v2_lite.csv
+
+google drive link for data files :
+```plaintext
+https://drive.google.com/drive/folders/1ysGdc466Qq07Y3VINLpP8vbDsRecOmoW?usp=drive_link
+```
 
 🚀 How to Run
 
